@@ -4,7 +4,7 @@
     "description": "This is our task manager backend",
     "main": "index.js",
     "scripts": {
-        "start": "",
+        "start": "node index.js",
         "test": "run test"
     },
     "author": "",
