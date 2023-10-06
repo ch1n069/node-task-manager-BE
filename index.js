@@ -1,10 +1,7 @@
-const express = require("express");
+const app = require("./app");
+const http = require("http");
+const port = 3000;
 
-const app = express();
-
-// create the route
-
-const PORT = 3000;
-app.listen(PORT, () => {
-  console.log(`server is running at http://localhost:${PORT}`);
-});
+// constant for the server
+const server = http.createServer(app);
+server.listen(port);
