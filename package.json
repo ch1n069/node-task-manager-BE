@@ -4,13 +4,14 @@
     "description": "This is our task manager backend",
     "main": "index.js",
     "scripts": {
-        "start": "node index.js",
+        "start": "nodemon index.js",
         "test": "run test"
     },
     "author": "",
     "license": "ISC",
     "dependencies": {
         "express": "^4.18.2",
-        "nodemon": "^3.0.1"
+        "nodemon": "^3.0.1",
+        "sequelize": "^6.33.0"
     }
 }
