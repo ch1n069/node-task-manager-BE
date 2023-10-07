@@ -59,3 +59,4 @@ coverage/
 # Ignore Node.js generated files
 node_modules/
 npm-debug.log
+migrations
